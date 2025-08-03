@@ -8,6 +8,6 @@
     <li><a href="about.php">About</a></li>
     <li><a href="myresearch.php">My Research</a></li>
   </ul>
-  <p>GitHub: <a href="https://github.com/yourusername/final-exam">https://github.com/yourusername/final-exam</a></p>
+  <p>GitHub: <a href="https://github.com/Ladda7744/FinalExam.git">github-final-exam</a></p>
 </body>
 </html>

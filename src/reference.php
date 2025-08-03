@@ -25,6 +25,10 @@ $result = $conn->query("SELECT * FROM reference");
 <?php while($row = $result->fetch_assoc()): ?>
   <li>
     <a href="<?php echo $row['pdf_url']; ?>"><?php echo $row['title']; ?></a>
+    <form method="get" action="edit_reference.php" style="display:inline;">
+      <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
+      <button type="submit">Edit</button>
+    </form>    
     <form method="post" action="delete_reference.php" style="display:inline;">
       <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
       <button type="submit">Delete</button>
